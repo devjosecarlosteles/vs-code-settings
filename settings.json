@@ -1,0 +1,50 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "security.workspace.trust.banner": "always",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontSize": 12,
+  "editor.fontLigatures": true,
+  "git.confirmSync": false,
+  "editor.tabSize": 2,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "workbench.startupEditor": "none",
+  "[prisma]": {
+    "editor.formatOnSave": true
+  },
+  "material-icon-theme.activeIconPack": "nest",
+  "material-icon-theme.folders.theme": "specific",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "material-icon-theme.files.associations": {},
+  "material-icon-theme.folders.associations": {
+    "dtos": "interface",
+    "entities": "Class",
+    "users": "Admin",
+    "keycloak": "keys",
+    "typeorm": "database",
+    "@global": "global"
+  },
+  "material-icon-theme.folders.color": "#90a4ae",
+  "[dockercompose]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.colorTheme": "Black",
+  "workbench.colorCustomizations": {},
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "docwriter.hotkey.windows": "Alt + .",
+  "window.zoomLevel": 1,
+  "files.associations": {
+    "*.css": "css"
+  }
+}
