@@ -40,7 +40,10 @@
   },
   "liveServer.settings.donotShowInfoMsg": true,
   "workbench.colorTheme": "Black",
-  "workbench.colorCustomizations": {},
+  "workbench.colorCustomizations": {
+    "editorIndentGuide.activeBackground": "#1fc74e",
+    "editorIndentGuide.background": "#35572f"
+  },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "docwriter.hotkey.windows": "Alt + .",
   "window.zoomLevel": 1,
