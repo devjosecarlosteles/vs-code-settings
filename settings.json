@@ -1,7 +1,7 @@
 {
   "workbench.iconTheme": "material-icon-theme",
   "security.workspace.trust.banner": "always",
-  "editor.fontFamily": "Fira Code",
+  "editor.fontFamily": "JetBrains Mono",
   "editor.fontSize": 12,
   "editor.fontLigatures": true,
   "git.confirmSync": false,
@@ -10,7 +10,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescriptreact]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "workbench.startupEditor": "none",
   "[prisma]": {
@@ -20,7 +20,7 @@
   "material-icon-theme.folders.theme": "specific",
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   },
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -32,22 +32,53 @@
     "users": "Admin",
     "keycloak": "keys",
     "typeorm": "database",
-    "@global": "global"
+    "@global": "global",
+    "logger": "log",
+    "http": "api",
+    "repositories": "database"
   },
   "material-icon-theme.folders.color": "#90a4ae",
   "[dockercompose]": {
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
   },
   "liveServer.settings.donotShowInfoMsg": true,
-  "workbench.colorTheme": "Black",
   "workbench.colorCustomizations": {
     "editorIndentGuide.activeBackground": "#1fc74e",
     "editorIndentGuide.background": "#35572f"
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "docwriter.hotkey.windows": "Alt + .",
-  "window.zoomLevel": 1,
   "files.associations": {
     "*.css": "css"
-  }
+  },
+  "terminal.integrated.env.windows": {},
+  "editor.inlineSuggest.enabled": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.commandCenter": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": false,
+    "scminput": false
+  },
+  "console-ninja.featureSet": "Community",
+  "symbols.hidesExplorerArrows": false,
+  "window.zoomLevel": 2,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.autofetch": true,
+  "prisma.showPrismaDataPlatformNotification": false,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "interactiveWindow.executeWithShiftEnter": true,
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "python.defaultInterpreterPath": "C:\\Users\\Neto\\.virtualenvs\\estatisticas_para_devs-fJ93j8jF",
+  "workbench.colorTheme": "GitHub Dark"
 }
